@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neon Memory Game</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BACKGROUND GLOW -->
+  <div class="bg-circle one"></div>
+  <div class="bg-circle two"></div>
+
+  <div class="game-container">
+
+    <h1>NEON MEMORY</h1>
+
+    <div class="top-bar">
+      <div class="score-box">
+        Level: <span id="level">0</span>
+      </div>
+
+      <div class="score-box">
+        High Score: <span id="highScore">0</span>
+      </div>
+    </div>
+
+    <!-- GAME GRID -->
+    <div class="grid">
+
+      <div class="btn red" id="red"></div>
+
+      <div class="btn blue" id="blue"></div>
+
+      <div class="btn green" id="green"></div>
+
+      <div class="btn yellow" id="yellow"></div>
+
+    </div>
+
+    <button id="startBtn">START GAME</button>
+
+    <p class="info">
+      Repeat the glowing sequence correctly.
+    </p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
